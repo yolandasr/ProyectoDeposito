@@ -6,6 +6,14 @@ public class CCuenta {
     private String cuenta;
     private double saldo;
     private double tipoInteres;
+    
+    /**
+     * metodo que nos indica el saldo disponible en una cuenta
+     * @param nombre titular de la cuenta
+     * @param cuenta numero de la cuenta asociada
+     * @param saldo cantidad disponible del titular en cuenta
+     * @param tipoInteres tipo de interes aplicado al saldo
+     */
 
     public CCuenta()
     {
